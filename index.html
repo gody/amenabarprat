@@ -2,7 +2,9 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<link href="http://addtocalendar.com/atc/1.5/atc-style-blue.css" rel="stylesheet" type="text/css">
@@ -26,20 +28,8 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-	        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-	        <li><a href="#">Link</a></li>
-	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="#">Action</a></li>
-	            <li><a href="#">Another action</a></li>
-	            <li><a href="#">Something else here</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="#">Separated link</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="#">One more separated link</a></li>
-	          </ul>
-	        </li>
+	        <li class="active"><a href="#agendar">Agendar<span class="sr-only">(current)</span></a></li>
+	        <li><a href="#como-llegar">Como llegar</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -106,25 +96,32 @@
 	  </a>
 	</div>
 
-	<div class="container">
+	<section id="como-llegar">
 
+	</section>
+
+	<section class="container" id="agendar">
+		<div class="addtocalendar atc-style-blue col-sm-6">
+	        <var class="atc_event">
+	            <var class="atc_date_start">2016-05-07 17:30:00</var>
+	            <var class="atc_date_end">2016-05-08 05:00:00</var>
+	            <var class="atc_timezone">America/Montevideo</var>
+	            <var class="atc_title">Matrimonio Diego Amenábar y Carolina Prat</var>
+	            <var class="atc_description"></var>
+	            <var class="atc_location">Iglesia San Juan Apostol</var>
+	            <var class="atc_organizer">Diego y Caro</var>
+	            <var class="atc_organizer_email">novios@amenabarprat.cl</var>
+	        </var>
+    	</div>
+	</section>
+
+	<div class="container">
 		<h1>Como llegar</h1>
 		<div class="row">
-			<div class="col-sm-6">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d53158.251500449616!2d-70.66564460424857!3d-33.35650926602031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x9662c8d3bc828a1f%3A0xd6fabda811f22918!2sParroquia+San+Juan+Ap%C3%B3stol+-+Calle+Jacques+Cazotte+5800%2C+Vitacura%2C+Santiago%2C+Regi%C3%B3n+Metropolitana%2C+Chile!3m2!1d-33.3912391!2d-70.5813428!4m5!1s0x9662b8e45f4b7155%3A0xe744b010b0d11dbc!2sChicureo+99%2C+Chicureo%2C+Colina%2C+Regi%C3%B3n+Metropolitana!3m2!1d-33.2856387!2d-70.6842092!5e0!3m2!1sen!2scl!4v1442411911652" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<div class="col-xs-12 col-sm-8">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d53158.251500449616!2d-70.66564460424857!3d-33.35650926602031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x9662c8d3bc828a1f%3A0xd6fabda811f22918!2sParroquia+San+Juan+Ap%C3%B3stol+-+Calle+Jacques+Cazotte+5800%2C+Vitacura%2C+Santiago%2C+Regi%C3%B3n+Metropolitana%2C+Chile!3m2!1d-33.3912391!2d-70.5813428!4m5!1s0x9662b8e45f4b7155%3A0xe744b010b0d11dbc!2sChicureo+99%2C+Chicureo%2C+Colina%2C+Regi%C3%B3n+Metropolitana!3m2!1d-33.2856387!2d-70.6842092!5e0!3m2!1sen!2scl!4v1442411911652" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
-			<div class="addtocalendar atc-style-blue col-sm-6">
-		        <var class="atc_event">
-		            <var class="atc_date_start">2016-05-07 17:30:00</var>
-		            <var class="atc_date_end">2016-05-08 05:00:00</var>
-		            <var class="atc_timezone">America/Montevideo</var>
-		            <var class="atc_title">Matrimonio Diego Amenábar y Carolina Prat</var>
-		            <var class="atc_description"></var>
-		            <var class="atc_location">Iglesia San Juan Apostol</var>
-		            <var class="atc_organizer">Diego y Caro</var>
-		            <var class="atc_organizer_email">novios@amenabarprat.cl</var>
-		        </var>
-	    	</div>
+
 		</div>
 
 		<div class="row">
